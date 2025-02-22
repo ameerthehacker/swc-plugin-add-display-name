@@ -1,5 +1,5 @@
 {
-    "name": "@ameerthehacker/swc-plugin-add-display-name",
+    "name": "swc-plugin-react-display-name",
     "version": "0.5.1",
     "description": "An SWC plugin to add displayName to React components",
     "author": "ameerthehacker <ameerjhanprof@gmail.com>",

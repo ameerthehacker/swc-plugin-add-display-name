@@ -1,4 +1,4 @@
-# swc-plugin-add-display-name
+# swc-plugin-react-display-name
 
 Automatically add `displayName` to *top-level* React *functional* components.
 - ✅ `const Component = () => <jsx />`
@@ -12,7 +12,7 @@ Automatically add `displayName` to *top-level* React *functional* components.
 Install with your favorite package manager as devDependency.
 
 ```bash
-npm i -D swc-plugin-add-display-name
+npm i -D swc-plugin-react-display-name
 ```
 
 Add plugin to wherever you have an SWC config (e.g. `.swcrc` file, `swc-loader` config, etc). Make sure either `jsx` or `tsx` option is turned on depending on the syntax you are using.
@@ -26,7 +26,7 @@ Add plugin to wherever you have an SWC config (e.g. `.swcrc` file, `swc-loader` 
     },
     experimental: {
       plugins: [
-        ['swc-plugin-add-display-name', {}],
+        ['swc-plugin-react-display-name', {}],
       ],
     },
   },
@@ -41,7 +41,7 @@ Add plugin to wherever you have an SWC config (e.g. `.swcrc` file, `swc-loader` 
     },
     experimental: {
       plugins: [
-        ['swc-plugin-add-display-name', {}],
+        ['swc-plugin-react-display-name', {}],
       ],
     }
   },
